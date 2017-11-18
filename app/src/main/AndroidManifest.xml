@@ -35,7 +35,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CheckOutScreen" />
-        <activity android:name=".PaymentPreview"/>
+        <activity android:name=".PaymentPreview" />
+        <activity android:name=".AboutUs"
+            android:label="@string/title_activity_About_Us"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

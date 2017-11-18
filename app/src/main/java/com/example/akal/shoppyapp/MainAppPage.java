@@ -113,9 +113,8 @@ public class MainAppPage extends AppCompatActivity {
                     startActivity(intent);
                     drawer.closeDrawer();
                 } else if (drawerItem.getIdentifier() == 1) {
-                    Intent intent = new Intent(MainAppPage.this, PaymentPreview.class);
+                    Intent intent = new Intent(MainAppPage.this, AboutUs.class);
                     startActivity(intent);
-                    drawer.closeDrawer();
                 } else if (drawerItem.getIdentifier() == 2) {
                     Intent intent = new Intent(MainAppPage.this, PaymentPreview.class);
                     startActivity(intent);
