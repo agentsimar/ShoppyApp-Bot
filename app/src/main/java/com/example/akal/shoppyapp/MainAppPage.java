@@ -93,12 +93,12 @@ public class MainAppPage extends AppCompatActivity {
         //drawer items
         PrimaryDrawerItem shop = new PrimaryDrawerItem().withIdentifier(0).withName("Shop").withIcon(R.mipmap.ic_launcher);
         final PrimaryDrawerItem about_us = new PrimaryDrawerItem().withIdentifier(1).withName("About Us");
-        PrimaryDrawerItem contact_us = new PrimaryDrawerItem().withIdentifier(2).withName("Contact us");
+        PrimaryDrawerItem faq_page = new PrimaryDrawerItem().withIdentifier(2).withName("FAQ's");
 
 
         final Drawer drawer = new DrawerBuilder().
                 withActivity(this).
-                addDrawerItems(shop, about_us, contact_us).
+                addDrawerItems(shop, about_us, faq_page).
                 withDrawerWidthDp(250).
                 withActionBarDrawerToggle(true).
                 withToolbar(toolbar).
@@ -116,7 +116,7 @@ public class MainAppPage extends AppCompatActivity {
                     Intent intent = new Intent(MainAppPage.this, AboutUs.class);
                     startActivity(intent);
                 } else if (drawerItem.getIdentifier() == 2) {
-                    Intent intent = new Intent(MainAppPage.this, PaymentPreview.class);
+                    Intent intent = new Intent(MainAppPage.this, FaqPage.class);
                     startActivity(intent);
                     drawer.closeDrawer();
                 }
