@@ -82,6 +82,7 @@
         <item>West Bengal</item>
     </string-array>
 
-    <string name="about">this is first line.this is second line.this is a third line.</string>
+    <string name="about">We provide various Dog products that are useful for dog owners.\n There are various products like dog biscuits and dog collars.
+    We also provide clothing for dogs like various Dog coats. \n For any questions you can check the faq page and the customer support page</string>
 
 </resources>
