@@ -85,5 +85,5 @@
 
     <string name="about">We provide various Dog products that are useful for dog owners.\n There are various products like dog biscuits and dog collars.
     We also provide clothing for dogs like various Dog coats. \n For any questions you can check the faq page and the customer support page</string>
-<string name="FAQ"></string>
+    <string name="FAQ"></string>
 </resources>

@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Akal\.android\build-cache\2f457cf6d86379916259d56ea82e2cb1dd457da0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4e7ccc1d51d89540ea7ad426a1934204b674939b">
+        <dex dex="C:\Users\Akal\Downloads\ShoppyApp-Drawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_81a57fda32bea00cb05192b4602171130f90f9fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Akal\Downloads\ShoppyApp-Drawer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -16,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="26e985b1bb19824af09da9364f6bfa71c48b1ef5">
+        sha1="7c403a8bc897b3181664dfc0077d4ca989c3ab18">
         <dex dex="C:\Users\Akal\Downloads\ShoppyApp-Drawer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_dc8f03eccfa104d73def472c349d846ff1d2367c\classes.dex" />
     </item>
 

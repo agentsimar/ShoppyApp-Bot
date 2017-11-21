@@ -3,6 +3,7 @@
     package="com.example.akal.shoppyapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -45,9 +46,8 @@
             android:name=".FaqPage"
             android:label="@string/title_activity_Faq_Page"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ChatBot"></activity>
     </application>
 
 </manifest>
