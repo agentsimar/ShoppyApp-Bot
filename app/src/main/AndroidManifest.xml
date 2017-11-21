@@ -44,10 +44,12 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".FaqPage"
-            android:label="@string/title_activity_Faq_Page"
+            android:label="@string/title_activity_chat_bot"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ChatBot"></activity>
+        <activity android:name=".ChatBot">
+
+        </activity>
     </application>
 
 </manifest>

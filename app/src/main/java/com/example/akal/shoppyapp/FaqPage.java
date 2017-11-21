@@ -25,10 +25,11 @@ public class FaqPage extends AppCompatActivity {
         PrimaryDrawerItem shop = new PrimaryDrawerItem().withIdentifier(0).withName("Shop").withIcon(R.mipmap.ic_launcher);
         final PrimaryDrawerItem about_us = new PrimaryDrawerItem().withIdentifier(1).withName("About Us");
         PrimaryDrawerItem faq_page = new PrimaryDrawerItem().withIdentifier(2).withName("Contact us");
+        PrimaryDrawerItem chat_bot  = new PrimaryDrawerItem().withIdentifier(3).withName("Chatbot");
 
         final Drawer drawer = new DrawerBuilder()
                 .withActivity(this)
-                .addDrawerItems(shop, about_us, faq_page)
+                .addDrawerItems(shop, about_us, faq_page, chat_bot)
                 .withDrawerWidthDp(250)
                 .withActionBarDrawerToggle(true)
                 .withToolbar(toolbar)
@@ -47,6 +48,11 @@ public class FaqPage extends AppCompatActivity {
                     drawer.closeDrawer();
                 } else if (drawerItem.getIdentifier() == 2) {
                     Intent intent = new Intent(FaqPage.this, FaqPage.class);
+                    startActivity(intent);
+                    drawer.closeDrawer();
+                }
+                else if (drawerItem.getIdentifier() == 3) {
+                    Intent intent = new Intent(FaqPage.this, ChatBot.class);
                     startActivity(intent);
                     drawer.closeDrawer();
                 }

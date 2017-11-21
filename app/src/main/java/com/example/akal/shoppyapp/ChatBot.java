@@ -2,6 +2,7 @@ package com.example.akal.shoppyapp;
 
 import android.*;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
@@ -10,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -22,6 +24,10 @@ import android.widget.RelativeLayout;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.mikepenz.materialdrawer.Drawer;
+import com.mikepenz.materialdrawer.DrawerBuilder;
+import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
+import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 import ai.api.AIDataService;
 import ai.api.AIListener;
@@ -48,6 +54,46 @@ public class ChatBot extends AppCompatActivity implements AIListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat_bot);
+
+
+
+        PrimaryDrawerItem shop = new PrimaryDrawerItem().withIdentifier(0).withName("Shop").withIcon(R.mipmap.ic_launcher);
+        final PrimaryDrawerItem about_us = new PrimaryDrawerItem().withIdentifier(1).withName("About Us");
+        PrimaryDrawerItem faq_page = new PrimaryDrawerItem().withIdentifier(2).withName("FAQ's");
+        PrimaryDrawerItem chat_bot  = new PrimaryDrawerItem().withIdentifier(3).withName("Chatbot");
+
+        final Drawer drawer = new DrawerBuilder()
+                .withActivity(this)
+                .addDrawerItems(shop, about_us, faq_page, chat_bot)
+                .withDrawerWidthDp(250)
+                .withActionBarDrawerToggle(true)
+                .build();
+
+        drawer.setOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
+            @Override
+            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                if (drawerItem.getIdentifier() == 0) {
+                    Intent intent = new Intent(ChatBot.this, MainAppPage.class);
+                    startActivity(intent);
+                    drawer.closeDrawer();
+                } else if (drawerItem.getIdentifier() == 1) {
+                    Intent intent = new Intent(ChatBot.this, AboutUs.class);
+                    startActivity(intent);
+                    drawer.closeDrawer();
+                } else if (drawerItem.getIdentifier() == 2) {
+                    Intent intent = new Intent(ChatBot.this, FaqPage.class);
+                    startActivity(intent);
+                    drawer.closeDrawer();
+                }
+                else if (drawerItem.getIdentifier() == 3) {
+                    Intent intent = new Intent(ChatBot.this, ChatBot.class);
+                    startActivity(intent);
+                    drawer.closeDrawer();
+                }
+                return true;
+            }
+        });
+
         ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.RECORD_AUDIO},1);
 
 
