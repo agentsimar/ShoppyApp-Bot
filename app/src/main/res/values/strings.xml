@@ -32,6 +32,7 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="DB_Feedbacks">Feedbacks</string>
 
     <string-array name="countries_array">
         <item>Afghanistan</item>
