@@ -34,6 +34,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="DB_Feedbacks">Feedbacks</string>
 
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_auth">AuthActivity</string>
+
     <string-array name="countries_array">
         <item>Afghanistan</item>
         <item>Albania</item>
