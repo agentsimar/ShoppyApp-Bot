@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -32,7 +33,7 @@ import java.util.Map;
 public class PaymentPreview extends Activity {
 
 
-    EditText amt = null;
+    TextView amt = null;
     Button pay = null;
 
     public static final String TAG = "PayUMoneySDK Sample";
@@ -42,7 +43,14 @@ public class PaymentPreview extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.payment_layout);
-        amt = (EditText) findViewById(R.id.amount);
+
+        Bundle bundle = getIntent().getExtras();
+
+        //Extract the data…
+        String price = bundle.getString("Price");
+
+        amt = (TextView) findViewById(R.id.amount);
+        amt.setText(price);
         pay = (Button) findViewById(R.id.pay);
     }
 
