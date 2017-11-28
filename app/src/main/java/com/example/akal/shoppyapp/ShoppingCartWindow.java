@@ -7,9 +7,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.android.gms.ads.identifier.AdvertisingIdClient;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -23,6 +29,9 @@ import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+
+import static android.R.attr.value;
+import static com.example.akal.shoppyapp.R.id.message;
 
 public class ShoppingCartWindow extends AppCompatActivity {
 
@@ -87,7 +96,30 @@ public class ShoppingCartWindow extends AppCompatActivity {
         (findViewById(R.id.checkOut)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), CheckOutScreen.class));
+
+                DatabaseReference rootRef = FirebaseDatabase.getInstance().getReference();
+                rootRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot snapshot) {
+                        if (snapshot.hasChild("users/" + user.getUid()+"/delivery/")) {
+                            //Create the bundle
+                            Bundle bundle = new Bundle();
+                            //Add your data from getFactualResults method to bundle
+                            bundle.putString("Price", String.valueOf(totalAmount));
+                            //Add the bundle to the intent
+
+                            startActivity(new Intent(getApplicationContext(), PaymentPreview.class).putExtras(bundle));
+                        }else {
+                            Toast.makeText(ShoppingCartWindow.this, "First Enter Delivery Detatils", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(getApplicationContext(), CheckOutScreen.class));
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                        Toast.makeText(ShoppingCartWindow.this, "Oops Re-Enter Details", Toast.LENGTH_SHORT).show();
+                    }
+                });
             }
         });
         (findViewById(R.id.clearCart)).setOnClickListener(new View.OnClickListener() {
@@ -100,6 +132,8 @@ public class ShoppingCartWindow extends AppCompatActivity {
                 finish();
             }
         });
+
+
     }
 
     @Override
@@ -114,6 +148,7 @@ public class ShoppingCartWindow extends AppCompatActivity {
         if (mAuthListener != null) {
             mAuth.removeAuthStateListener(mAuthListener);
         }
+
     }
 
     private void setUpShoppingCart(DataSnapshot dataSnapshot) {
@@ -170,4 +205,5 @@ public class ShoppingCartWindow extends AppCompatActivity {
             isCartEmpty = true;
         }
     }
+
 }

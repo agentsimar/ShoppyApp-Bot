@@ -36,8 +36,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-
-    compile("com.mikepenz:materialdrawer:6.0.1@aar") {
+    compile('com.mikepenz:materialdrawer:6.0.1@aar') {
         transitive = true
     }
     compile 'com.android.support:appcompat-v7:26.+'
@@ -55,6 +54,7 @@ dependencies {
     compile 'com.google.code.gson:gson:2.3.1'
     compile 'commons-io:commons-io:2.4'
     testCompile 'junit:junit:4.12'
+    compile project(':payUMoneysdk')
 }
 
 
