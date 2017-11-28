@@ -47,6 +47,11 @@
             android:label="@string/title_activity_chat_bot"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="@string/title_activity_Feedback_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ChatBot">
 
         </activity>

@@ -140,7 +140,7 @@ public class MainAppPage extends AppCompatActivity {
                     intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(apkPath)));
                     startActivity(Intent.createChooser(intent, "Share App Using"));
                 }else if (drawerItem.getIdentifier() == 5) {
-                    Intent intent = new Intent(MainAppPage.this, Feedback.class);
+                    Intent intent = new Intent(MainAppPage.this, FeedbackActivity.class);
                     startActivity(intent);
                     drawer.closeDrawer();
                 }else if (drawerItem.getIdentifier() == 6) {

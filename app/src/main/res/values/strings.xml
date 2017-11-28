@@ -19,6 +19,7 @@
     <string name="title_activity_login">Sign in</string>
     <string name="title_activity_main_app_page">MainAppPage</string>
     <string name="title_activity_About_Us">About Us</string>
+    <string name="title_activity_Feedback_Activity">Feedback Activity</string>
     <string name="title_activity_Faq_Page">FAQ</string>
     <string name="title_activity_chat_bot">Chatbot</string>
     <string name="action_settings">Settings</string>

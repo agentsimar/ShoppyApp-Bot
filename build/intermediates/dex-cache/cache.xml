@@ -2,67 +2,94 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\payUMoneysdk\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="64cf223ab5e6d617f032f9068765f0aa0219b526">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_0d1e0905d04e8bbe09d619498988416e604d641c.jar" />
+        sha1="ef09bb5a42bcece596049ddc8ee77f89ad0fe5f4">
+        <dex dex="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6cf40b31b1efd684f14c295f9459ccabb6be9a31\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Gursimran\.android\build-cache\5c87ec01bcd84bbcadd02c184d3361a61b523c46\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Akal\.android\build-cache\7082ccb77171c5a273acfd1d172b119f95bad946\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="bc5cb7b8461ba72332bbc062210bf2bd52aa39ce">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_ccaf07471b34a393013320c0896344c7fd286eab.jar" />
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ff28a44f461a22a738bc9895b19c7f8fb38ae120\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Gursimran\.android\build-cache\52170742df9fd91618200902d3046ba090c3b5ad\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b81c788c5f175f94ddaac2f65e5d1726371e0963">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_861b7bb9e495a6133cbb1d1fc6ffb55bc25fd65d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.18\38da306aafee11459cd935a01d2c92a98dc670a4\library-1.0.18.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\library-1.0.18_b84224e1133a6596ae7f8e60cdcfdd72ecd971cd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.mobsandgeeks\android-saripaar\1.0.3\c24cfd9331b6d5a2ee15dccb60774c7cc5debd99\android-saripaar-1.0.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="c24cfd9331b6d5a2ee15dccb60774c7cc5debd99">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\android-saripaar-1.0.3_12ceb2dcfba52e2816ef20efc34abd5b475f03a6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.2.1\a18ff12a9ab5ae52fd30d42f134517997568231e\eventbus-2.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a18ff12a9ab5ae52fd30d42f134517997568231e">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\eventbus-2.2.1_5f0cf4f51a2f10c3c5e6a972337664ad38cebcb0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gursimran\.android\build-cache\27496063cff2060fcafa48784c2c46ff03db8451\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Akal\.android\build-cache\25594c3580aec60352119b526f106792e5ec0cd1\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_0bec41aa97d20101889f340dfa9c837ce59111ac.jar" />
+        <dex dex="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ec7aad17e389f95898b59eae2bfa743b9cc12b2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akal\.android\build-cache\7394ede76eb2e3337bb22a8325f95806ef568592\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b81c788c5f175f94ddaac2f65e5d1726371e0963">
+        <dex dex="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2af69b79af589c52d7d83ba84f5fe6e58329e9b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ad604a852e1c3c6be25545b3ce3c5762e179cf94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akal\.android\build-cache\76e951f4cc2daacced9d6f2b511d634f93bd1e85\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bc5cb7b8461ba72332bbc062210bf2bd52aa39ce">
+        <dex dex="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_405249b36fabd2342040e79a9cb04068c5dab9d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akal\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.18\38da306aafee11459cd935a01d2c92a98dc670a4\library-1.0.18.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
+        <dex dex="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.18_24716a5fbedf592bf4847cfd0d2fed99340930bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akal\.gradle\caches\modules-2\files-2.1\com.mobsandgeeks\android-saripaar\1.0.3\c24cfd9331b6d5a2ee15dccb60774c7cc5debd99\android-saripaar-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c24cfd9331b6d5a2ee15dccb60774c7cc5debd99">
+        <dex dex="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-saripaar-1.0.3_dc7f466aeebe3c4067beb4cff88296224113959e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akal\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.2.1\a18ff12a9ab5ae52fd30d42f134517997568231e\eventbus-2.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a18ff12a9ab5ae52fd30d42f134517997568231e">
+        <dex dex="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-2.2.1_482e63727ce6ae69154139a10c65610dc496e021\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akal\.android\build-cache\b60d56b76706944b0074c34640715e6fb369096c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="591e7c1eb05bda2bcee22d151402fd8d61ffeca9">
+        <dex dex="C:\Users\Akal\Documents\GitHub\ShoppyApp-Bot\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_27ab0a82503a878976187bd5fea8a16646dc45f9\classes.dex" />
     </item>
 
 </items>

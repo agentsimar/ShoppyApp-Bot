@@ -35,12 +35,16 @@ public class FeedbackActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if(getSupportActionBar() != null){
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //if(getSupportActionBar() != null){
+            //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        }
-
+        //}
         setContentView(R.layout.activity_feedback);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("Shoppy");
+        setSupportActionBar(toolbar);
+
         RatingBar = (RatingBar) findViewById(R.id.RatingBar);
         txtComment = (EditText) findViewById(R.id.editTextComment);
         buttonSubmit = (Button) findViewById(R.id.buttonSubmit);
@@ -68,6 +72,7 @@ public class FeedbackActivity extends AppCompatActivity {
                 addDrawerItems(shop, about_us, faq_page, chat_bot, share, feedback, delivery).
                 withDrawerWidthDp(250).
                 withActionBarDrawerToggle(true).
+                withToolbar(toolbar).
                 build();
 
 
