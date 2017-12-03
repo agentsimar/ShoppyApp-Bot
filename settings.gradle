@@ -1,1 +1,1 @@
-include ':app', ':sdkui', ':payUMoneysdk'
+include ':app', ':sdkui', ':payUMoneysdk', ':gmailbackgroundlibrary'

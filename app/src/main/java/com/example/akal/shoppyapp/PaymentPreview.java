@@ -5,6 +5,8 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -25,10 +27,12 @@ import com.payUMoney.sdk.SdkConstants;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.ByteArrayOutputStream;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Map;
 
+import static com.example.akal.shoppyapp.R.string.email;
 
 public class PaymentPreview extends Activity {
 
@@ -242,10 +246,13 @@ public class PaymentPreview extends Activity {
                 Log.i(TAG, "Success - Payment ID : " + data.getStringExtra(SdkConstants.PAYMENT_ID));
                 String paymentId = data.getStringExtra(SdkConstants.PAYMENT_ID);
                 showDialogMessage("Payment Success Id : " + paymentId);
+
             } else if (resultCode == RESULT_CANCELED) {
                 Log.i(TAG, "failure");
                 showDialogMessage("cancelled");
+
             } else if (resultCode == PayUmoneySdkInitilizer.RESULT_FAILED) {
+
                 Log.i("app_activity", "failure");
 
                 if (data != null) {

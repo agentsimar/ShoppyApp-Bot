@@ -3,30 +3,129 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\payUMoneysdk\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="64cf223ab5e6d617f032f9068765f0aa0219b526">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_0d1e0905d04e8bbe09d619498988416e604d641c.jar" />
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.5.2_59a519638abe014c985481c3cbfac21367a6e9b4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Gursimran\.android\build-cache\5c87ec01bcd84bbcadd02c184d3361a61b523c46\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\Gursimran\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="bc5cb7b8461ba72332bbc062210bf2bd52aa39ce">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_ccaf07471b34a393013320c0896344c7fd286eab.jar" />
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_14f39d0a3f801d780f5e37b8a2fb90c620aa8b12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\a6571c119e14caf86e7ea368e110643d4b9eefc4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="591e7c1eb05bda2bcee22d151402fd8d61ffeca9">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_610759daa1926d2654cec8a14061223f1f4ca954.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\90f15c283924ca22bc6183feafc8950fe091fe66\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="606ef0d18ef792bcf35cc520fb4a1a25ea24c0e7">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_b3478151f263aa4aafe5efb70ac6e6d2531b8705.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\734b781259409f88057f14edc4bcb85a12497174\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_5ffd3641ac6e8511408fbe1e867e599d6e4dde29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\javax.mail-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a055c648842c4954c1f7db7254f45d9ad565e278">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\javax.mail-1.6.0_334db1226ab930deabb8bd65f2d229b9ee20f3e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\cf3dfa6421ad292f9813e44b2b6f482d3ae338d9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_079453a396f39a39a4dc5c7c6818eb3413039b03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\facc3c38c72172ecfdfeae773fcd87654b417252\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_253d13d62aff3d02026ad73de611eab296d37632.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\2ef49a1a27203063984dfd9e341c16eaac165af8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_3e3a740ae083db273633927c4c9cebefc7d7bed9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\43040a7445c7dde52137d585def8019440c6be0d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_f40bba53ab98900d28eac4a572c873c7a0d204f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.2.1\a18ff12a9ab5ae52fd30d42f134517997568231e\eventbus-2.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a18ff12a9ab5ae52fd30d42f134517997568231e">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\eventbus-2.2.1_5f0cf4f51a2f10c3c5e6a972337664ad38cebcb0.jar" />
     </item>
     <item
         is-multidex="false"
         jar="C:\Users\Gursimran\.android\build-cache\52170742df9fd91618200902d3046ba090c3b5ad\output\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="b81c788c5f175f94ddaac2f65e5d1726371e0963">
         <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_861b7bb9e495a6133cbb1d1fc6ffb55bc25fd65d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\6cc625609908d28346fdc6a375c61306c2a38f3b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_51ac87f3cba00d2e38538e3b663ab40b62deaa88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\9bb62200da1b0ee22ecaf53dc1d46e2f846dd5c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_2e55525e7a7e7b208ad1f7c8e1413678a30d3d14.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,12 +138,309 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\ae8a1e75559d4ec3f06080802f3fd0289eb08f43\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="26628aa982a3e8d3471681ab60c362aee239ac5c">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_6926f26c686863f11117b36cb8e355229f583f99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.2\d7ef6ad7ff0711dd12fe409d62d72d6ed14516e0\log4j-api-2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7ef6ad7ff0711dd12fe409d62d72d6ed14516e0">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\log4j-api-2.2_bcdaa61d0911751cc56d96edfdcb1c1e28179fba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\tubesock-0.0.12_609d60bab42a62edb79985d054ff346957ffcc52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\ce199d7239b2e76ad82a52dd55e30d6e150d881d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_cc81c0b9f79f4da7877cdd7f004335017b1580b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.mobsandgeeks\android-saripaar\1.0.3\c24cfd9331b6d5a2ee15dccb60774c7cc5debd99\android-saripaar-1.0.3.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="c24cfd9331b6d5a2ee15dccb60774c7cc5debd99">
         <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\android-saripaar-1.0.3_12ceb2dcfba52e2816ef20efc34abd5b475f03a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_67ead762a0dca0728f9a1210af6bbf53825be9ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\5c87ec01bcd84bbcadd02c184d3361a61b523c46\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bc5cb7b8461ba72332bbc062210bf2bd52aa39ce">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_ccaf07471b34a393013320c0896344c7fd286eab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\28064980e3c3c8813f3c3d9641cf075e019b875f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_ba0e16995ea33651728c5b577ea7ccbe2e30fc98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\a0ba405f3321f019c839ca631dc1461d0b3f0f0e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_a9b6dc6a4468cff5310f718d6c49722718f4f253.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.5.2_f584cc652e998a435b1b0bc6c0ec2bb9b1e056eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\4e9c6f8b25a11da2c1718b8cd916ab7054faa9ee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_56326140e6fff5a9f741ad8e1d1495226a483b69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\payUMoneysdk\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="64cf223ab5e6d617f032f9068765f0aa0219b526">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_0d1e0905d04e8bbe09d619498988416e604d641c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\24418d897877d3f005cd0e145bd5effc392e2fd6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_b44380bb33d483ded1fb1388610b1227d3050302.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\52170742df9fd91618200902d3046ba090c3b5ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b81c788c5f175f94ddaac2f65e5d1726371e0963">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_861b7bb9e495a6133cbb1d1fc6ffb55bc25fd65d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\2937d90e974bdb004688b9c23e0e052961fa35ca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_fa3e393b9d48509ba16ee7b5d2ab48433da5db29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\71a4dc9627fb462e7b1ded46b17deebbcdcc80a4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_c1c5cabf9f8c124366bd98de916684cca58f9f3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\27496063cff2060fcafa48784c2c46ff03db8451\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_0bec41aa97d20101889f340dfa9c837ce59111ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\94ccea23219215a977b39fbe033a6f394e4b5771\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_3974bfd3e4e0a0f325b8233ab62d63d0404427eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\d9b54b37b5acca1747e49fcb29844ae92823995e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a8d407e2040469151e7ee16c48dc3117f5be63a5">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_1a564bf0e0b3d0d55562913b2f1c9552b04e1b48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\30f3a53d4e2de73fdb826d100aa8c30129744ffd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_e636ccbb3dd8f9095a9a97a4d29cd793f0df4418.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_45f448316cf8f6dbb40e6a1d8f2e137ea54efb0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\df35043759dfc0d73a383c6d8b09829fba1fb515\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_a96f8b738d4a7e198b50430309663eda9e159a3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.18\38da306aafee11459cd935a01d2c92a98dc670a4\library-1.0.18.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\library-1.0.18_b84224e1133a6596ae7f8e60cdcfdd72ecd971cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\ce5ca1d2b252e798de067b95ae852ec48cb0d590\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_abec5bcca188cf697cb875511a4b00f5d9e2829b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\cb247afb6a5a03301d85a1e76b5c6e5c77f1f755\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="60ffc08919ae909be431f7c850ac6b322cef47ef">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_612d89e1a2e1839f017824dfd05edd6bf70bdb27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\422e6601bbf26b36c5550ac9735bcbd9426fe8c5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_b185c1f5a1da11b6de0283329c209149fe2d08c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\16abb47ecf1cd7b2e36af095b07869e39494e23e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_b5f5df17a137fc5e3b363fe0749ab5f21a34a981.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\activation.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8acf42612ad530a4fbf4058982555394298b4ed8">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\activation_eb85580ebdab782fce188188adc9cdfaeabc8791.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\e9a5c9735a633238a9b86193e85af488d4f42ee2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4e7ccc1d51d89540ea7ad426a1934204b674939b">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_a231b1badd4494c2f06684931f099920d40da7e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\ai.api\libai\1.4.8\1386bf51c371e40bf1dc04920b04bd937c04e8ba\libai-1.4.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1386bf51c371e40bf1dc04920b04bd937c04e8ba">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\libai-1.4.8_2905ea31b150633dc8e92e1332980861aa6d7dcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\fde1f5cabada806a90c84b365575836ffbc952a3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_860174d3779a1166ca671080c91018d97850c818.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\d660da21e281d5b3baacb8cffd69577b78677269\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_94bf38f14f8c02ce920d2cd0fdabb107f5891fc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\5184d96758c28cf2eb03455ba73de38f3345c741\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_3d888c5b8e3f4c9f177877ecdf02622efeb4bca1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\commons-io\commons-io\2.4\commons-io-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\commons-io-2.4_b2955a73e8fdec69863902c786dced8321b28c5c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,12 +453,138 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Gursimran\.android\build-cache\27496063cff2060fcafa48784c2c46ff03db8451\output\jars\classes.jar"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.2\c707664e020218f8529b9a5e55016ee15f0f82ac\log4j-core-2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c707664e020218f8529b9a5e55016ee15f0f82ac">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\log4j-core-2.2_d23c90d08362abf68d324ff749e96c5fe87ce7eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.mobsandgeeks\android-saripaar\1.0.3\c24cfd9331b6d5a2ee15dccb60774c7cc5debd99\android-saripaar-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c24cfd9331b6d5a2ee15dccb60774c7cc5debd99">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\android-saripaar-1.0.3_12ceb2dcfba52e2816ef20efc34abd5b475f03a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\payUMoneysdk\build\intermediates\bundles\default\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="64cf223ab5e6d617f032f9068765f0aa0219b526">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_0d1e0905d04e8bbe09d619498988416e604d641c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2_657ab270b1d33d3c19d199ca74469b064fb9f78d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\5c87ec01bcd84bbcadd02c184d3361a61b523c46\output\jars\classes.jar"
         jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bc5cb7b8461ba72332bbc062210bf2bd52aa39ce">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_ccaf07471b34a393013320c0896344c7fd286eab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\javax.mail-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a055c648842c4954c1f7db7254f45d9ad565e278">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\javax.mail-1.6.0_334db1226ab930deabb8bd65f2d229b9ee20f3e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\1b20ca36003086dee6ab927eb07930ede72a0d14\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_ed19eb84c72de4016ea6f661d0fd3729348f2c52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2_7adc185f1060d26668949e32ceca58d258b594dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\27496063cff2060fcafa48784c2c46ff03db8451\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
         <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_0bec41aa97d20101889f340dfa9c837ce59111ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\0b3887feb86fb60bcd0511dc4e12e44ab77a8ac8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c6c04ee3c2ffd7403b0c6ad787bbbc8ce1697a97">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_eb94eef234e585338dad2d32f202a9601a344007.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2_a908c2ea0f530a053454641e8ebf67e43b857e47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\80e035385b2d39f227dea28c002673917d67c4f1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="926bbb77be73e338d9f1a34ca58e2b8a7ef17e03">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_0325527dfd10b694b1912abfe2ff7499dd1c0dba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\b57e02bbd218751f3f79133c85f1f34dd38bfd37\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_482aed5156fa97065f0b8608683e081e8ef67b9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\5e0e76662d82c830890172452f60c4a943aea005\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_d01ee03eb5da6eaa9637acb386e103e0b0481242.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\gson-2.3.1_d22fd358e3b0cfeb2cc708cb557d3e89771472cf.jar" />
     </item>
 
 </items>

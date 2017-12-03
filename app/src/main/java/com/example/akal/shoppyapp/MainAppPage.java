@@ -9,11 +9,14 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 
@@ -41,12 +44,14 @@ public class MainAppPage extends AppCompatActivity {
     DatabaseReference myRef = database.getReference("items");
     private Boolean exit = false;
     private ArrayList<ShoppingItem> shoppingItems;
+    EditText inputSearch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_app_page);
+        inputSearch = (EditText) findViewById(R.id.inputSearch); // initialize edittext
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Shoppy");
@@ -90,6 +95,28 @@ public class MainAppPage extends AppCompatActivity {
                 Intent productIntent = new Intent(MainAppPage.this, IndividualProduct.class);
                 productIntent.putExtra("product", shoppingItems.get(i));
                 startActivity(productIntent);
+            }
+        });
+
+        //Search
+        inputSearch.addTextChangedListener(new TextWatcher() {
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                // When user changed the Text
+                adapter.getFilter().filter(s.toString());
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count,
+                                          int after) {
+                // TODO Auto-generated method stub
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                // TODO Auto-generated method stub
             }
         });
 
