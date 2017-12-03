@@ -11,214 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8229e288-5084-477c-8ac2-a26bae9fe073" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/app.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/local.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/androidTest/java/com/payu/payuui/ApplicationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/assets/helvetica_neue_bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Activity/OldPaymentActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Activity/PayUBaseActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Activity/PaymentsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Adapter/PagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Adapter/SavedCardItemFragmentAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Fragment/CashCardFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Fragment/CreditDebitFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Fragment/LazyPayFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Fragment/NetBankingFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Fragment/PayuMoneyFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Fragment/SavedCardItemFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Fragment/SavedCardsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Fragment/UPIFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/SavedCard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/SdkuiUtil/SdkUIConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Widget/CirclePageIndicator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Widget/MonthYearPickerDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Widget/PageIndicator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Widget/SwipeTab/SlidingTabLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Widget/SwipeTab/SlidingTabStrip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/java/com/payu/payuui/Widget/ZoomOutPageTransformer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/anim/face_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/anim/fade_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/color/button_paynow_color.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/color/color.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/color/vpi__dark_theme.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/color/vpi__light_theme.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-hdpi/ic_delete_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-hdpi/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-mdpi/error_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-mdpi/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-mdpi/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/allbd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/amex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/andhra.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/axis.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/bob.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/boi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/bom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/cana.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/cbi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/citi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/corp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/cub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/dena.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/fede.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/grey_lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/hdfc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/hdfc_bank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/helper_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/hsbc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/icici.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/icicicc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/icicinet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/idbi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/indusind.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/ingv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/iob.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/karur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/kbl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/kotak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/kotaknet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/pnb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/sbi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/sbidc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/sbinet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/scb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/sib.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/synd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/ubi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/uco.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/vijy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xhdpi/yes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/amex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/background_drawable.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/diner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/discover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/jcb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/laser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/maestro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/master.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/rupay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/vpi__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/vpi__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/vpi__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/vpi__tab_unselected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/vpi__tab_unselected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxhdpi/vpi__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable-xxxhdpi/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/bttn_grey_disabled.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/grey_lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/grey_round_rect.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/hdfc_flat_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/helper_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/ic_delete_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/icon_card.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/image_border.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/layout_saved_card.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/logo_axis.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/logo_citi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/logo_hdfc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/logo_icici.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/logo_sbi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/logo_visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/mas_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/mc_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/monthicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/my_custom_background.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/rect_shape_drop_down.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/round_rect_shape.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/spinner_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/trash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/drawable/vpi__tab_indicator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/activity_payments.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/activity_payu_base.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/activity_temp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/app_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/date_picker_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/emi_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/fragment_cash_card.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/fragment_credit_debit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/fragment_lazy_pay.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/fragment_net_banking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/fragment_payu_money.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/fragment_saved_cards.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/fragment_upi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/layout_saved_card.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/layout_user_cards.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/page.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/row.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/layout/upi_helper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/menu/menu_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/menu/menu_payments.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/menu/menu_temp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-hdpi/card_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-hdpi/citi_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-hdpi/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-hdpi/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-mdpi/card_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-mdpi/citi_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-mdpi/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-mdpi/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/app_bar_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/card_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/citi_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/vpi__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/vpi__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/vpi__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/vpi__tab_unselected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/vpi__tab_unselected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xhdpi/vpi__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xxhdpi/card_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xxhdpi/citi_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xxhdpi/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xxhdpi/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xxxhdpi/card_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xxxhdpi/citi_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xxxhdpi/image_cvv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/mipmap-xxxhdpi/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/values-w820dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/values/arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/values/vpi__attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/values/vpi__colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/values/vpi__defaults.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/src/main/res/values/vpi__styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gmailbackgroundlibrary/gmailbackgroundlibrary.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkui/sdkui.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/akal/shoppyapp/MainAppPage.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/akal/shoppyapp/MainAppPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/akal/shoppyapp/PaymentPreview.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/akal/shoppyapp/PaymentPreview.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/akal/shoppyapp/ShoppingListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/akal/shoppyapp/ShoppingListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_app_page.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_app_page.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="ShoppyApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -3743,7 +3541,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -3760,17 +3558,27 @@
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ShoppyApp-Bot" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShoppyApp-Bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShoppyApp-Bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane />
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -4551,6 +4359,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4558,6 +4367,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
