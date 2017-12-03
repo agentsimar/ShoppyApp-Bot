@@ -8,10 +8,14 @@ import java.text.NumberFormat;
  */
 
 public class ShoppingItem implements Serializable {
-    private String name,type,description;
-    private int price,quantity,productID;
+    public String name,type,description;
+    public int price,quantity,productID;
 
-    public ShoppingItem(int productID,String name,String type,String description,int price,int quantity){
+    public ShoppingItem(String name) {
+        this.name = name;
+    }
+
+    public ShoppingItem(int productID, String name, String type, String description, int price, int quantity){
         this.productID=productID;
         this.name= name;
         this.type=type;

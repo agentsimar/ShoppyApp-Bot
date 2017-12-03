@@ -48,15 +48,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\javax.mail-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a055c648842c4954c1f7db7254f45d9ad565e278">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\javax.mail-1.6.0_334db1226ab930deabb8bd65f2d229b9ee20f3e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Gursimran\.android\build-cache\cf3dfa6421ad292f9813e44b2b6f482d3ae338d9\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -381,15 +372,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\activation.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8acf42612ad530a4fbf4058982555394298b4ed8">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\activation_eb85580ebdab782fce188188adc9cdfaeabc8791.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Gursimran\.android\build-cache\e9a5c9735a633238a9b86193e85af488d4f42ee2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -495,15 +477,6 @@
         revision="26.0.1"
         sha1="bc5cb7b8461ba72332bbc062210bf2bd52aa39ce">
         <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\classes_ccaf07471b34a393013320c0896344c7fd286eab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\javax.mail-1.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a055c648842c4954c1f7db7254f45d9ad565e278">
-        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp-Bot\app\build\intermediates\pre-dexed\debug\javax.mail-1.6.0_334db1226ab930deabb8bd65f2d229b9ee20f3e4.jar" />
     </item>
     <item
         is-multidex="false"
