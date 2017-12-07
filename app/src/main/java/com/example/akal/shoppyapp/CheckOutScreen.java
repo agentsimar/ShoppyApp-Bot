@@ -55,10 +55,11 @@ private Button mSendData;
         private final String TAG = CheckOutScreen.class.getSimpleName();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef;
+        private FirebaseUser user;
         Boolean isCartEmpty = true;
         private FirebaseAuth mAuth;
         private FirebaseAuth.AuthStateListener mAuthListener;
-        private FirebaseUser user;
+
 
 @Override
 protected void onCreate(Bundle savedInstanceState) {

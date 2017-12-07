@@ -1,14 +1,20 @@
 package com.example.akal.shoppyapp;
 
+import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.annotation.NonNull;
+import android.support.design.widget.Snackbar;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -21,6 +27,15 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.creativityapps.gmailbackgroundlibrary.BackgroundMail;
+import com.firebase.client.Firebase;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.payUMoney.sdk.PayUmoneySdkInitilizer;
 import com.payUMoney.sdk.SdkConstants;
 
@@ -30,21 +45,32 @@ import org.json.JSONObject;
 import java.io.ByteArrayOutputStream;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
+import permissions.dispatcher.NeedsPermission;
+import permissions.dispatcher.RuntimePermissions;
 
 import static com.example.akal.shoppyapp.R.string.email;
+import static com.example.akal.shoppyapp.R.string.name_on_card;
 
 public class PaymentPreview extends Activity {
 
-
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference myRef;
+    private FirebaseUser user;
+    private FirebaseAuth mAuth;
+    private FirebaseAuth.AuthStateListener mAuthListener;
     TextView amt = null;
     Button pay = null;
 
+    String Data;
     public static final String TAG = "PayUMoneySDK Sample";
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.payment_layout);
 
@@ -56,7 +82,47 @@ public class PaymentPreview extends Activity {
         amt = (TextView) findViewById(R.id.amount);
         amt.setText(price);
         pay = (Button) findViewById(R.id.pay);
+
+        Firebase.setAndroidContext(this);
+
+        mAuth = FirebaseAuth.getInstance();
+        mAuthListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull final FirebaseAuth firebaseAuth) {
+                user = firebaseAuth.getCurrentUser();
+                if (user != null) {
+                    // User is signed in
+                    Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
+                    myRef = database.getReference("users/" + user.getUid()+"/delivery/");
+
+                    final List<RetriveData> Data = new ArrayList<>();
+                    myRef.addValueEventListener(new ValueEventListener() {
+
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            Data.clear();
+                            for (DataSnapshot messageSnapshot: dataSnapshot.getChildren()) {
+                                RetriveData university = messageSnapshot.getValue(RetriveData.class);
+                                Data.add(university);
+                            }
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+                            Toast.makeText(PaymentPreview.this, "No Data in Delivery", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                } else {
+                    Log.d(TAG, "onAuthStateChanged:signed_out");
+                }
+            }
+        };
+
+
     }
+
+
+
 
     private boolean isDouble(String str) {
         try {
@@ -229,7 +295,7 @@ public class PaymentPreview extends Activity {
         Volley.newRequestQueue(this).add(jsonObjectRequest);
     }
 
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
 
         if (requestCode == PayUmoneySdkInitilizer.PAYU_SDK_PAYMENT_REQUEST_CODE) {
 
@@ -247,12 +313,63 @@ public class PaymentPreview extends Activity {
                 String paymentId = data.getStringExtra(SdkConstants.PAYMENT_ID);
                 showDialogMessage("Payment Success Id : " + paymentId);
 
+                //send mail to merchent
+                String fileName = Environment.getExternalStorageDirectory().getPath() + "/Test.txt";
+
+                BackgroundMail.newBuilder(this)
+                        .withUsername("gursimranbasra7.gs@gmail.com")
+                        .withPassword("9914861333")
+                        .withSenderName("Shoppy App")
+                        .withMailTo("dudestylish16@gmail.com")
+                        .withSubject("New Order")
+                        .withBody("this is the body soon")
+                        //.withAttachments(fileName)
+                        .withUseDefaultSession(false)
+                        .withProcessVisibility(true)
+                        .withOnSuccessCallback(new BackgroundMail.OnSuccessCallback() {
+                            @Override
+                            public void onSuccess() {
+                                //do some magic
+                            }
+                        })
+                        .withOnFailCallback(new BackgroundMail.OnFailCallback() {
+                            @Override
+                            public void onFail() {
+                                //do some magic
+                            }
+                        })
+                        .send();
+
             } else if (resultCode == RESULT_CANCELED) {
                 Log.i(TAG, "failure");
                 showDialogMessage("cancelled");
 
             } else if (resultCode == PayUmoneySdkInitilizer.RESULT_FAILED) {
+                String fileName = Environment.getExternalStorageDirectory().getPath() + "/Test.txt";
 
+                BackgroundMail.newBuilder(this)
+                        .withUsername("gursimranbasra7.gs@gmail.com")
+                        .withPassword("9914861333")
+                        .withSenderName("Shoppy App")
+                        .withMailTo("dudestylish16@gmail.com")
+                        .withSubject("New Order")
+                        .withBody("this is the body soon" + Data )
+                        //.withAttachments(fileName)
+                        .withUseDefaultSession(false)
+                        .withProcessVisibility(true)
+                        .withOnSuccessCallback(new BackgroundMail.OnSuccessCallback() {
+                            @Override
+                            public void onSuccess() {
+                                //do some magic
+                            }
+                        })
+                        .withOnFailCallback(new BackgroundMail.OnFailCallback() {
+                            @Override
+                            public void onFail() {
+                                //do some magic
+                            }
+                        })
+                        .send();
                 Log.i("app_activity", "failure");
 
                 if (data != null) {
