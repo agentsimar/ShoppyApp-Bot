@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.ImageView;
@@ -21,27 +22,46 @@ import java.util.List;
  * Created by Akal on 10-11-2017.
  */
 
-public class ShoppingListAdapter extends ArrayAdapter<ShoppingItem> implements Filterable {
+public class ShoppingListAdapter extends BaseAdapter implements Filterable {
     Context context;
-    private List<ShoppingItem> mOriginalValues; // Original Values
-    private List<ShoppingItem> mDisplayedValues;    // Values to be displayed
     LayoutInflater inflater;
+    ArrayList<ShoppingItem> items;
+    CustomFilter filter;
+    ArrayList<ShoppingItem> filteritems;
     public ShoppingListAdapter(Context context, List<ShoppingItem> items){
-        super(context, 0, items);
+        super();
         this.context = context;
-        this.mOriginalValues = items;
-        this.mDisplayedValues = items;
         inflater = LayoutInflater.from(context);
+        this.items = (ArrayList<ShoppingItem>) items;
+        this.filteritems = (ArrayList<ShoppingItem>) items;
+    }
+
+    @Override
+    public int getCount() {
+        return items.size();
+    }
+
+    @Override
+    public Object getItem(int i) {
+        return items.get(i);
+    }
+
+    @Override
+    public long getItemId(int i) {
+        return items.indexOf(getItem(i));
     }
 
     @NonNull
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+    public View getView(int i, @Nullable View convertView, @NonNull ViewGroup parent) {
         View listItemView = convertView;
+
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+
         if (listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
+            listItemView = inflater.inflate(R.layout.list_item , null);
         }
-        ShoppingItem currentItem = getItem(position);
+        ShoppingItem currentItem = (ShoppingItem) getItem(i);
         ImageView img = listItemView.findViewById(R.id.itemIcon);
         Picasso.with(getContext())
                 .load(context.getApplicationContext().getString(R.string.ip)
@@ -61,53 +81,57 @@ public class ShoppingListAdapter extends ArrayAdapter<ShoppingItem> implements F
         return listItemView;
     }
 
+
     @Override
     public Filter getFilter() {
-        Filter filter = new Filter() {
-
-            @SuppressWarnings("unchecked")
-            @Override
-            protected void publishResults(CharSequence constraint,FilterResults results) {
-
-                mDisplayedValues = (List<ShoppingItem>) results.values; // has the filtered values
-                notifyDataSetChanged();  // notifies the data with new filtered values
-            }
-
-            @Override
-            protected FilterResults performFiltering(CharSequence constraint) {
-                FilterResults results = new FilterResults();        // Holds the results of a filtering operation in values
-                List<ShoppingItem> FilteredArrList = new ArrayList<>();
-
-                if (mOriginalValues == null) {
-                    mOriginalValues = new ArrayList<ShoppingItem>(mDisplayedValues); // saves the original data in mOriginalValues
-                }
-
-                /********
-                 *
-                 *  If constraint(CharSequence that is received) is null returns the mOriginalValues(Original) values
-                 *  else does the Filtering and returns FilteredArrList(Filtered)
-                 *
-                 ********/
-                if (constraint == null || constraint.length() == 0) {
-
-                    // set the Original result to return
-                    results.count = mOriginalValues.size();
-                    results.values = mOriginalValues;
-                } else {
-                    constraint = constraint.toString().toLowerCase();
-                    for (int i = 0; i < mOriginalValues.size(); i++) {
-                        String data = mOriginalValues.get(i).name;
-                        if (data.toLowerCase().startsWith(constraint.toString())) {
-                            FilteredArrList.add(new ShoppingItem(mOriginalValues.get(i).name));
-                        }
-                    }
-                    // set the Filtered result to return
-                    results.count = FilteredArrList.size();
-                    results.values = FilteredArrList;
-                }
-                return results;
-            }
-        };
+        if(filter == null){
+            filter = new CustomFilter();
+        }
         return filter;
+    }
+
+    public Context getContext() {
+        return context;
+    }
+
+    class CustomFilter extends Filter{
+
+
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+
+            FilterResults results = new FilterResults();
+            if(constraint != null && constraint.length()>0){
+                constraint = constraint.toString().toUpperCase();
+
+                ArrayList<ShoppingItem> filters = new ArrayList<ShoppingItem>();
+
+                for(int i=0; i<filteritems.size(); i++){
+                    if(filteritems.get(i).getTitle().toUpperCase().contains(constraint)){
+                        ShoppingItem item = new ShoppingItem(filteritems.get(i).getTitle());
+
+                        filteritems.add(item);
+                    }
+                }
+                results.count = filters.size();
+                results.values = filters;
+
+            }else {
+                results.count = filteritems.size();
+                results.values = filteritems;
+
+
+            }
+
+            return results;
+        }
+
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+
+            items = (ArrayList<ShoppingItem>) results.values;
+            notifyDataSetChanged();
+
+        }
     }
 }

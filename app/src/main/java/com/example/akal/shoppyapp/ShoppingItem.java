@@ -23,7 +23,12 @@ public class ShoppingItem implements Serializable {
         this.price=price;
         this.quantity=quantity;
     }
-        public void setQuantity(int quantity){
+
+    public ShoppingItem() {
+
+    }
+
+    public void setQuantity(int quantity){
             this.quantity=quantity;
         }
         public int getProductID(){

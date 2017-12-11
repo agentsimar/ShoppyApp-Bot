@@ -1,16 +1,32 @@
 package com.example.akal.shoppyapp;
 
+import android.app.Application;
+
 /**
  * Created by Gursimran on 07-12-2017.
  */
 
-public class RetriveData {
+public class RetriveData extends Application {
 
-    private String city;
-    private String country;
-    private String email;
-    private String postal;
-    private String state;
+    public String city;
+    public String country;
+    public String email;
+
+    public RetriveData() {
+    }
+
+    public String postal;
+    public String state;
+
+    public RetriveData(String city, String country, String email, String postal, String state, String street, String username) {
+        this.city = city;
+        this.country = country;
+        this.email = email;
+        this.postal = postal;
+        this.state = state;
+        this.street = street;
+        this.username = username;
+    }
 
     public String getCity() {
         return city;
@@ -81,7 +97,7 @@ public class RetriveData {
         this.username = username;
     }
 
-    private String street;
-    private String username;
+    public String street;
+    public String username;
     }
 

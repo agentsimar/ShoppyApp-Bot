@@ -46,6 +46,7 @@ import java.io.ByteArrayOutputStream;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -64,8 +65,8 @@ public class PaymentPreview extends Activity {
     private FirebaseAuth.AuthStateListener mAuthListener;
     TextView amt = null;
     Button pay = null;
+    ArrayList<RetriveData> items;
 
-    String Data;
     public static final String TAG = "PayUMoneySDK Sample";
 
 
@@ -74,7 +75,7 @@ public class PaymentPreview extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.payment_layout);
 
-        Bundle bundle = getIntent().getExtras();
+        final Bundle bundle = getIntent().getExtras();
 
         //Extract the data…
         String price = bundle.getString("Price");
@@ -95,21 +96,29 @@ public class PaymentPreview extends Activity {
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
                     myRef = database.getReference("users/" + user.getUid()+"/delivery/");
 
-                    final List<RetriveData> Data = new ArrayList<>();
-                    myRef.addValueEventListener(new ValueEventListener() {
 
+                    myRef.addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
-                            Data.clear();
-                            for (DataSnapshot messageSnapshot: dataSnapshot.getChildren()) {
-                                RetriveData university = messageSnapshot.getValue(RetriveData.class);
-                                Data.add(university);
+
+                            for (DataSnapshot item : dataSnapshot.getChildren()) {
+
+                                    items.add(new RetriveData(
+                                            item.child("username").getValue().toString(),
+                                            item.child("email").getValue().toString(),
+                                            item.child("street").getValue().toString(),
+                                            item.child("city").getValue().toString(),
+                                            item.child("postal").getValue().toString(),
+                                            item.child("state").getValue().toString(),
+                                            item.child("country").getValue().toString()
+                                    ));
+                                }
                             }
-                        }
+
 
                         @Override
                         public void onCancelled(DatabaseError databaseError) {
-                            Toast.makeText(PaymentPreview.this, "No Data in Delivery", Toast.LENGTH_SHORT).show();
+
                         }
                     });
                 } else {
@@ -353,7 +362,7 @@ public class PaymentPreview extends Activity {
                         .withSenderName("Shoppy App")
                         .withMailTo("dudestylish16@gmail.com")
                         .withSubject("New Order")
-                        .withBody("this is the body soon" + Data )
+                        .withBody("this is the body soon"+ items  )
                         //.withAttachments(fileName)
                         .withUseDefaultSession(false)
                         .withProcessVisibility(true)

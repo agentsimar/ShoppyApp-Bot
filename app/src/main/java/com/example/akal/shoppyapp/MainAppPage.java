@@ -2,6 +2,7 @@ package com.example.akal.shoppyapp;
 
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
+import android.database.DataSetObserver;
 import android.net.Uri;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
@@ -15,10 +16,14 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.EditText;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+import android.widget.SearchView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -32,6 +37,7 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 import java.io.File;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class MainAppPage extends AppCompatActivity {
@@ -44,14 +50,16 @@ public class MainAppPage extends AppCompatActivity {
     DatabaseReference myRef = database.getReference("items");
     private Boolean exit = false;
     private ArrayList<ShoppingItem> shoppingItems;
-    EditText inputSearch;
+    SearchView sv;
+
+    String[] names ={"Anti Tick Shampoo", "Anti Tick Shampoo-Beta", "Boost Cal Gold", "Boost Liv", "Clear Milk", "Gutnorm", "Swiss anti Tick Shampoo", "Swiss pet shampoo"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_app_page);
-        inputSearch = (EditText) findViewById(R.id.inputSearch); // initialize edittext
+        sv = (SearchView) findViewById(R.id.search);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Shoppy");
@@ -80,6 +88,7 @@ public class MainAppPage extends AppCompatActivity {
                 adapter = new ShoppingListAdapter(getApplicationContext(), shoppingItems);
                 progressBar.setVisibility(View.GONE);
                 shoppingItemView.setAdapter(adapter);
+
             }
 
             @Override
@@ -95,28 +104,6 @@ public class MainAppPage extends AppCompatActivity {
                 Intent productIntent = new Intent(MainAppPage.this, IndividualProduct.class);
                 productIntent.putExtra("product", shoppingItems.get(i));
                 startActivity(productIntent);
-            }
-        });
-
-        //Search
-        inputSearch.addTextChangedListener(new TextWatcher() {
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                // When user changed the Text
-                adapter.getFilter().filter(s.toString());
-            }
-
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count,
-                                          int after) {
-                // TODO Auto-generated method stub
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                // TODO Auto-generated method stub
             }
         });
 
@@ -178,7 +165,6 @@ public class MainAppPage extends AppCompatActivity {
                 return true;
             }
         });
-
     }
 
 
